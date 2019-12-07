@@ -1,0 +1,5 @@
+This project intend to summarise different machine learning approaches of solving hand-digit recognition problems as a demo for more complex problems, including:
+(1) Using SVM for hand digits recognition;
+(2) Using KNN for hand digits recognition;
+(3) Using CNN for hand digits recognition;
+(4) Autoencoder and content-based image retrieval;
