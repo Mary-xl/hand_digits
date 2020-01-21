@@ -17,7 +17,7 @@ def test_encoder():
     autoencoder=load_model('../working/autoencoder.h5')
     x_train_noisy, x_test_noisy, y_train, y_test, x_train, x_test = preprocess()
     decoded_imgs=autoencoder.predict(x_test_noisy)
-
+    decoded_imgs*=255
     # for i in range(0,10):
     #     input_img=cv2.resize(x_test[i],(280,280))*255
     #     noisy_img=cv2.resize(x_test_noisy[i],(280,280))*255

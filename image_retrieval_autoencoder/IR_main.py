@@ -14,7 +14,7 @@ from image_retrieval_autoencoder.image_retrieval import image_retrieval
 if __name__=='__main__':
 
     autoencoder=autoencoder_model(28,28,1)
-    # train(autoencoder)
-    # test_encoder()
-    # image_retrieval()
+    train(autoencoder)
+    test_encoder()
+    #image_retrieval()
 
